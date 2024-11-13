@@ -8,6 +8,7 @@
 
 ARG PYTHON_VERSION=3.12.1
 FROM python:${PYTHON_VERSION}-slim as base
+LABEL org.opencontainers.image.source="https://github.com/pantherale0/gasspass-proxy"
 
 # Prevents Python from writing pyc files.
 ENV PYTHONDONTWRITEBYTECODE=1
