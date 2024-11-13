@@ -1,0 +1,5 @@
+flask
+flask-openapi3[swagger]
+flask-limiter
+requests
+python-dotenv
